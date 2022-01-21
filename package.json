@@ -1,0 +1,7 @@
+{
+  "name": "@lancejpollard/primitive-link-object-builder.js",
+  "version": "0.0.1",
+  "dependencies": {
+    "@lancejpollard/link-parser.js": "^0.0.1"
+  }
+}
