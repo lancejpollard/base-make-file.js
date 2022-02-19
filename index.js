@@ -2,12 +2,14 @@
 const buildDeckFile = require('./lib/file/deck')
 const buildBaseFile = require('./lib/file/base')
 const buildTestFile = require('./lib/file/test')
+const buildLaceFile = require('./lib/file/lace')
 
 const BUILDER = {
   'dock': buildBaseFile,
   'base': buildBaseFile,
   'deck': buildDeckFile,
   'test': buildTestFile,
+  'lace': buildLaceFile,
 }
 
 module.exports = build
